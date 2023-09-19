@@ -68,6 +68,8 @@ body {
 .container-player {
     min-height: 50px;
     background-color: var(--dark-grey);
+    display: flex;
+    justify-content: space-between;
 }
 
 .brano-img {
@@ -101,6 +103,36 @@ body {
 .player-right-section-text-name {
     font-size: 12px;
     color: var(--grey);
+}
+
+.player-left-section {
+    display: flex;
+}
+
+.player-left-section-icons {
+    display: flex;
+    align-items: center;
+}
+
+.timebar-light-white {
+    width: 25px;
+    font-size: 1px;
+    color: var(--light-white);
+    background-color: var(--light-white);
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    line-height: 5px;
+}
+
+
+.timebar-grey {
+    width: 120px;
+    font-size: 1px;
+    color: var(--grey);
+    background-color: var(--grey);
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    line-height: 5px;
 }
 
 
