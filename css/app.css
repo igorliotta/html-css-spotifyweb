@@ -114,6 +114,11 @@ body {
     align-items: center;
 }
 
+.timebar {
+    display: inline-block;
+    align-self: center;
+}
+
 .timebar-light-white {
     width: 25px;
     font-size: 1px;
