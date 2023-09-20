@@ -323,6 +323,7 @@ img {
 .download-img-text {
     font-size: 11px;
     color: var(--light-light-grey);
+    display: none;
 }
 
 .items-download {
@@ -356,6 +357,7 @@ img {
 .profile-name {
     font-size: 14px;
     color: var(--light-white);
+    display: none;
 }
 
 
