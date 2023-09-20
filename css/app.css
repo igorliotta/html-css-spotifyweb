@@ -32,24 +32,25 @@ img {
     --light-light-grey: #a3a3a3;
     --dark-grey: #282828;
     --green: #adff2f;
+    --sidebar-width: 230px;
 }
 
-body {
-    width: 100%;
+.page-content {
     min-height: 100vh;
 }
 
 /* LAYOUT */
 
-.container {
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
+.page-content,
+.sidebar,
+.main-content,
+.container-player {
+    overflow: hidden;
 }
 
-.container-sidebar-main {
-    flex-grow: 1;
-    display: flex;
+.container {
+    min-height: 100vh;
+    flex-direction: column;
 }
 
 .sidebar {
@@ -63,23 +64,37 @@ body {
     background-color: var(--dark-blue);
 }
 
+/* UTILITIES */
+
+.flex {
+    display: flex;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.column {
+    flex-direction: column;
+}
+
 /* PLAYER */
 
 .container-player {
-    min-height: 50px;
     background-color: var(--dark-grey);
     display: flex;
     justify-content: space-between;
 }
 
 .brano-img {
-    width: 40px;
+    width: 28px;
     aspect-ratio: 1;
 }
 
 .player-right-section {
-    display: flex;
     align-items: center;
+    justify-content: space-between;
+    flex-basis: var(--sidebar-width);
 }
 
 .brano-img {
@@ -105,13 +120,10 @@ body {
     color: var(--grey);
 }
 
-.player-left-section {
-    display: flex;
-}
 
 .player-left-section-icons {
-    display: flex;
     align-items: center;
+    padding-right: 10px;
 }
 
 .timebar {
@@ -140,6 +152,10 @@ body {
     line-height: 5px;
 }
 
+.player-center-section {
+    flex-basis: 50%;
+}
+
 
 
 /* DEBUG */
@@ -151,8 +167,11 @@ body {
 
 
 
-.debug .container-sidebar-main {
+.debug .container-sidebar-main,
+.debug .player-center-icons,
+.debug .timeline {
     border: 2px solid blue;
+    padding: 10px;
 }
 
 .debug .container-player{
@@ -170,18 +189,30 @@ body {
     padding: 10px;
 }
 
+.debug .player-center-section {
+    border: 2px solid yellow;
+    padding: 10px;
+}
+
 /* RESPONSIVE */
 
 
 @media (min-width: 576px) { 
 
-    .sidebar {
-        width: 230px;
-    }
+    
  }
 
 
-@media (min-width: 768px) {  }
+@media (min-width: 768px) { 
+
+    .sidebar {
+        width: var(--sidebar-width);
+    }
+
+    .brano-img {
+        width: 42px;
+    }
+ }
 
 
 @media (min-width: 992px) {  }
