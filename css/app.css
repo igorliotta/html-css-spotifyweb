@@ -82,12 +82,21 @@ img {
     justify-content: center;
 }
 
+.justify-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
 /* PLAYER */
 
 .container-player {
     background-color: var(--dark-grey);
     display: flex;
     justify-content: space-between;
+    padding-top: 10px;
 }
 
 .brano-img {
@@ -102,7 +111,7 @@ img {
 }
 
 .brano-img {
-    margin-right: 12px;
+    margin: 0px 12px;
 }
 
 .player-right-section-icon {
@@ -170,6 +179,49 @@ img {
     margin: 0px 12px;
 }
 
+.timeline {
+    gap: 12px;
+}
+
+.time {
+    color: var(--white);
+    font-size: 12px;
+    padding: 10px;
+}
+
+.timeline-bar {
+    flex-basis: 100%;
+    padding: 10px;
+    position: relative;
+}
+
+.timeline-bar-grey {
+    height: 4px;
+    flex-basis: 100%;
+    background-color: var(--grey);
+    border-radius: 999px;
+}
+
+.timeline-bar-white {
+    height: 4px;
+    width: 25%;
+    background-color: var(--light-grey);
+    border-radius: 999px;
+}
+
+.huddle {
+    width: 12px;
+    aspect-ratio: 1;
+    background-color: white;
+    border-radius: 999px;
+    position: absolute;
+    top: 25%;
+    left: 25%;
+}
+
+.timeline-bar:hover .timeline-bar-white {
+    background-color: var(--green);
+}
 
 
 /* DEBUG */
@@ -205,6 +257,12 @@ img {
 
 .debug .player-center-section {
     border: 2px solid yellow;
+    padding: 10px;
+}
+
+.debug .time,
+.debug .timeline-bar {
+    border: 2px solid green;
     padding: 10px;
 }
 
