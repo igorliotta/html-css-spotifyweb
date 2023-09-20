@@ -309,7 +309,7 @@ img {
 }
 
 .add-button-text {
-    font-size: 16px;
+    font-size: 13px;
 }
 
 /* DOWNLOAD */
@@ -347,14 +347,14 @@ img {
 }
 
 .profile-img {
-    width: 32px;
+    width: 28px;
     aspect-ratio: 1;
     background-color: var(--light-light-grey);
     border-radius: 999px;
 }
 
 .profile-name {
-    font-size: 18px;
+    font-size: 14px;
     color: var(--light-white);
 }
 
