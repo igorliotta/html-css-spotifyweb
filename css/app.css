@@ -59,7 +59,7 @@ img {
 
 .sidebar {
     width: 50px;
-    flex-shrink: -1;
+    flex-shrink: 0;
     background-color: var(--black);
 }
 
@@ -314,6 +314,10 @@ img {
 
 /* DOWNLOAD */
 
+.download-app {
+    margin-top: auto;
+}
+
 .download-img {
     width: 23px;
     aspect-ratio: 1;
@@ -411,7 +415,6 @@ img {
         display: block;
     }
 
-   
  }
 
 
