@@ -78,6 +78,10 @@ img {
     flex-direction: column;
 }
 
+.justify-center {
+    justify-content: center;
+}
+
 /* PLAYER */
 
 .container-player {
@@ -154,6 +158,16 @@ img {
 
 .player-center-section {
     flex-basis: 50%;
+}
+
+.player-center-icons {
+    color: var(--white);
+    font-size: 22px;
+    gap: 10px;
+}
+
+.play {
+    margin: 0px 12px;
 }
 
 
