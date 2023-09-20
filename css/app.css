@@ -315,7 +315,7 @@ img {
 /* DOWNLOAD */
 
 .download-img {
-    width: 12px;
+    width: 23px;
     aspect-ratio: 1;
     color: var(--light-light-grey);
 }
@@ -400,6 +400,14 @@ img {
     }
 
     .playlists {
+        display: block;
+    }
+
+    .download-img-text {
+        display: block;
+    }
+
+    .profile-name {
         display: block;
     }
 
