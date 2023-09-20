@@ -6,6 +6,10 @@
     box-sizing: border-box;
 }
 
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
 ul,
 ol,
 menu {
@@ -343,7 +347,7 @@ img {
 }
 
 .profile-img {
-    width: 18px;
+    width: 32px;
     aspect-ratio: 1;
     background-color: var(--light-light-grey);
     border-radius: 999px;
