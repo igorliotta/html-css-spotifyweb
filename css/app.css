@@ -308,6 +308,52 @@ img {
     font-size: 16px;
 }
 
+/* DOWNLOAD */
+
+.download-img {
+    width: 12px;
+    aspect-ratio: 1;
+    color: var(--light-light-grey);
+}
+
+.download-img-text {
+    font-size: 11px;
+    color: var(--light-light-grey);
+}
+
+.items-download {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    gap: 10px;
+}
+
+.download-underline {
+    width: calc(100% - 20px);
+    height: 1px;
+    background-color: var(--light-light-grey);
+    border-radius: 999px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+
+.profile {
+    margin-left: 10px;
+    gap: 10px;
+    margin-bottom: 10px;
+}
+
+.profile-img {
+    width: 18px;
+    aspect-ratio: 1;
+    background-color: var(--light-light-grey);
+    border-radius: 999px;
+}
+
+.profile-name {
+    font-size: 18px;
+    color: var(--light-white);
+}
+
 
 
 /* RESPONSIVE */
@@ -350,6 +396,7 @@ img {
     .playlists {
         display: block;
     }
+
    
  }
 
