@@ -223,6 +223,10 @@ img {
     background-color: var(--green);
 }
 
+.timebar:hover .timebar-light-white {
+    background-color: var(--green);
+}
+
 
 /* DEBUG */
 
@@ -235,7 +239,8 @@ img {
 
 .debug .container-sidebar-main,
 .debug .player-center-icons,
-.debug .timeline {
+.debug .timeline,
+.debug .sidebar > * {
     border: 2px solid blue;
     padding: 10px;
 }
@@ -246,7 +251,7 @@ img {
 }
 
 .debug .sidebar {
-    border: 2px solid black;
+    border: 2px solid orange;
     padding: 10px;
 }
 
