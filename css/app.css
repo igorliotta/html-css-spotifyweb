@@ -91,7 +91,7 @@ img {
 }
 
 .grey {
-    color: var(--light-light-grey);
+    background-color: var(--light-light-grey);
 }
 
 /* PLAYER */
@@ -278,6 +278,38 @@ img {
     margin-right: 10px;
 }
 
+/* PLAYLISTS */
+
+.playlists {
+    margin-top: 35px;
+    margin-left: 10px;
+    display: none;
+}
+
+.playlists-title {
+    text-transform: uppercase;
+    color: var(--white);
+}
+
+.playlist-add {
+    margin-top: 20px;
+    gap: 20px;
+}
+
+.add {
+    color: var(--light-light-grey);
+}
+
+.add-button {
+    padding-right: 10px;
+}
+
+.add-button-text {
+    font-size: 16px;
+}
+
+
+
 /* RESPONSIVE */
 
 
@@ -314,6 +346,10 @@ img {
     .text-item {
         display: block;
     }
+
+    .playlists {
+        display: block;
+    }
    
  }
 
@@ -347,7 +383,8 @@ img {
     
 }
 
-.debug .items {
+.debug .items,
+.debug .playlist-item {
     border: 2px solid greenyellow;
     padding: 10px;
 }
