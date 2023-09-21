@@ -240,6 +240,26 @@ img {
     background-color: var(--green);
 }
 
+.player-right-section-text-name:hover {
+    color: white;
+}
+
+.first:hover {
+    color: white;
+}
+
+.second:hover {
+    color: white;
+}
+
+.play:hover {
+    transform: scale(1.5);
+}
+
+.huddle:hover {
+    transform: scale(1.2);
+}
+
 /* SIDEBAR */
 
 .logo-small {
@@ -514,6 +534,27 @@ img {
     display: block;
     max-width: 175px;
     aspect-ratio: 1;
+}
+
+.song-played-img:hover {
+    filter: grayscale(1);
+}
+
+.position {
+    position: relative;
+}
+
+.play-img {
+    color: white;
+    position: absolute;
+    left: 65px;
+    top: 65px;
+    font-size: 30px;
+    display: none;
+}
+
+.song-played-img:hover .play-img {
+    display: block;
 }
 
 .song-played-title {
