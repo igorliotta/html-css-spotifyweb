@@ -98,6 +98,10 @@ img {
     background-color: var(--light-light-grey);
 }
 
+.fz {
+    font-size: 10px;
+}
+
 /* PLAYER */
 
 .container-player {
@@ -421,13 +425,16 @@ img {
 }
 
 .container-recently-played {
+    margin-top: 20px;
     flex-wrap: nowrap;
+    padding: 10px;
 }
 
 /* CARDS */
 
 .col-12 {
     flex-basis: 100%;
+    padding: 10px 0px;
 }
 
 .row-cards {
@@ -436,15 +443,19 @@ img {
 
 .col-6 {
     flex-basis: calc(100% / 2);
+    padding: 5px;
 }
 
-.recently-played-title {
+.recently-played-title,
+.created-for-title {
     color: white;
     font-size: 26px;
 }
 
 .song-played-img {
     display: block;
+    max-width: 175px;
+    aspect-ratio: 1;
 }
 
 .song-played-title {
@@ -456,13 +467,29 @@ img {
 }
 
 .song-played-author {
+    text-align: center;
+}
+
+.song-played-author,
+.created-for-text {
     color: var(--grey);
     font-size: 12px;
     font-weight: 700;
     padding-bottom: 10px;
-    text-align: center;
 }
 
+.created-for-text {
+    padding-top: 10px;
+}
+
+.start {
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+.col {
+    padding: 10px 0px;
+}
 
 
 
@@ -550,7 +577,8 @@ img {
 .debug .menu,
 .debug .item-img,
 .debug .text-item,
-.debug .content-type {
+.debug .content-type,
+.debug .col {
     border: 2px solid blue;
     
 }
