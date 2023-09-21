@@ -109,6 +109,7 @@ img {
     display: flex;
     justify-content: space-between;
     padding-top: 10px;
+    height: 120px;
 }
 
 .brano-img {
@@ -492,6 +493,13 @@ img {
     padding: 10px 0px;
 }
 
+.circle {
+    width: 250px;
+    aspect-ratio: 1;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
 
 
 /* RESPONSIVE */
@@ -549,6 +557,10 @@ img {
 
     .row-cards {
         flex-wrap: nowrap;
+    }
+
+    .circle {
+        border-radius: 0;
     }
 
 
