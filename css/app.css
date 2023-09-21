@@ -424,6 +424,8 @@ img {
     flex-wrap: nowrap;
 }
 
+/* CARDS */
+
 .col-12 {
     flex-basis: 100%;
 }
@@ -435,6 +437,32 @@ img {
 .col-6 {
     flex-basis: calc(100% / 2);
 }
+
+.recently-played-title {
+    color: white;
+    font-size: 26px;
+}
+
+.song-played-img {
+    display: block;
+}
+
+.song-played-title {
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+.song-played-author {
+    color: var(--grey);
+    font-size: 12px;
+    font-weight: 700;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
 
 
 
@@ -553,10 +581,13 @@ img {
 
 .debug .time,
 .debug .timeline-bar,
-.debug .col-12,
-.debug .col-6 {
+.debug .col-12 {
     border: 2px solid green;
     padding: 10px;
+}
+
+.debug .col-6 {
+    border: 2px solid green;
 }
 
 .debug .main-content {
