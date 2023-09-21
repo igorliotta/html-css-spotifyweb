@@ -420,6 +420,10 @@ img {
     justify-content: center;
 }
 
+.container-recently-played {
+    flex-wrap: nowrap;
+}
+
 .col-12 {
     flex-basis: 100%;
 }
@@ -429,7 +433,7 @@ img {
 }
 
 .col-6 {
-    flex-basis: calc((100% / 12) * 6);
+    flex-basis: calc(100% / 2);
 }
 
 
@@ -490,7 +494,6 @@ img {
     .row-cards {
         flex-wrap: nowrap;
     }
-
 
 
  }
