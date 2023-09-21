@@ -372,6 +372,7 @@ img {
 
 .main-content {
     position: relative;
+    overflow: auto;
 }
 
 .container-upgrade {
@@ -485,6 +486,7 @@ img {
 .start {
     justify-content: flex-start;
     gap: 10px;
+    flex-wrap: nowrap;
 }
 
 .col {
