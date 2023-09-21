@@ -420,6 +420,17 @@ img {
     justify-content: center;
 }
 
+.col-12 {
+    flex-basis: 100%;
+}
+
+.row-cards {
+    flex-wrap: wrap;
+}
+
+.col-6 {
+    flex-basis: calc((100% / 12) * 6);
+}
 
 
 
@@ -476,6 +487,10 @@ img {
         flex-wrap: nowrap;
     }
 
+    .row-cards {
+        flex-wrap: nowrap;
+    }
+
 
 
  }
@@ -490,7 +505,6 @@ img {
 
 .debug .container {
     border: 1px solid orange;
-    padding: 10px;
 }
 
 
@@ -518,7 +532,8 @@ img {
 
 
 .debug .container-player, 
-.debug .row {
+.debug .row-title,
+.debug .row-cards {
     border: 2px solid red;
     padding: 10px;
 }
@@ -535,7 +550,8 @@ img {
 
 .debug .time,
 .debug .timeline-bar,
-.debug .col-12 {
+.debug .col-12,
+.debug .col-6 {
     border: 2px solid green;
     padding: 10px;
 }
