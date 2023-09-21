@@ -248,7 +248,7 @@ img {
 
 .item-img {
     display: block;
-    width: 40px;
+    width: 26px;
     aspect-ratio: 1;
     color: var(--light-light-grey);
 }
@@ -259,11 +259,11 @@ img {
 }
 
 .menu {
-    gap: 10px;
+    gap: 9px;
 }
 
 .text-item {
-    font-size: 15px;
+    font-size: 13px;
     text-align: center;
     display: none;
 }
@@ -297,7 +297,7 @@ img {
 
 .playlist-add {
     margin-top: 20px;
-    gap: 20px;
+    gap: 8px;
 }
 
 .add {
